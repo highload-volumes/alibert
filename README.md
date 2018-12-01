@@ -6,11 +6,21 @@ Software stack
 
 ```
 
-- Java EE (Spring)
-- Kubernetes (as Docker)
--
+backend:
 
-- React/Angular in front
+- Java (Spring framework)
+- Kubernetes (as Docker)
+- [ ? ] Elastic Search
+- [ ? ] Hibernate
+
+- gRPC transport
+- maven/gradle
+- jwt/srp auth
+
+
+frontend:
+
+- Angular (with ts)
 
 ```
 
@@ -20,8 +30,9 @@ Architecture
 ```
 
 - Microservices
-- Restful
+- RPC Architecture
 - MVC (?)
+- SOA
 
 ```
 
